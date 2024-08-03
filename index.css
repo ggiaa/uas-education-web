@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Nunito";
+}
+
+section {
+    padding: 3.25rem 5rem;
+}
+
+/*===================== LANDING PAGE ==================================*/
+.landingpage {
+    background-color: #FFF5CB;
+}
+
+.landingpage .container {
+    display: flex;
+    align-items: center;
+}
+
+.landingpage .content h1 {
+    font-family: "Lora";
+}
+
+.landingpage .content div {
+    margin-top: 4rem;
+}
+
+.btn-landingpage {
+    margin-top: 1.5rem;
+    font-size: 1.1rem !important;
+    padding: .5rem 1rem !important;
+}
+
+.landingpage .image img {
+    max-height: 500px;
+    border-radius: 4rem;
+}
+
+
+/*===================== INTRODUCTION ==================================*/
+.introduction {
+    background-color: #eaf4fc;
+}
+
+.introduction .container {
+    display: flex;
+    align-items: center;
+}
+
+.introduction-img {
+    max-height: 500px;
+    border-radius: 4rem;
+    margin-right: 5rem;
+}
+
+.introduction .content h1 {
+    font-family: "Lora";
+}
+
+.introduction .content h5 {
+    margin-top: 4rem;
+    line-height: 1.5;
+}
+
+/*===================== GIZI MAKANAN ==================================*/
+.gizi-makanan {
+    background-color: #FFF5CB;
+}
+
+.gizi-makanan h1 {
+    text-align: center;
+    font-family: "Lora";
+}
+
+.gizi-makanan h5 {
+    text-align: center;
+    font-family: "Nunito";
+    margin: 1rem 0 1.5rem;
+    color: #5c5c5c;
+}
+
+.table thead tr th{
+    padding: 1rem .5rem;
+}
+
+.table tbody tr {
+    min-height: 97px;
+    height: 97px;
+    vertical-align: middle;
+}
+
+/*===================== MANFAAT ==================================*/
+.manfaat {
+    background-color: #eaf4fc;
+}
+
+.manfaat .container {
+    display: flex;
+}
+
+.manfaat h1 {
+    font-family: "Lora";
+}
+
+.manfaat h5 {
+    font-family: "Nunito";
+    margin: 1rem 0 1.5rem;
+    color: #5c5c5c;
+}
+
+.manfaat ul li {
+    font-family: "Nunito";
+    color: #5c5c5c;
+}
+
+.meditation-img {
+    max-height: 500px;
+    border-radius: 4rem;
+}
+
+/*===================== OLAHRAGA ==================================*/
+.olahraga {
+    background-color: #FFF5CB;
+}
+
+.olahraga .container .top-content {
+    text-align: center;
+}
+
+.olahraga h1 {
+    font-family: "Lora";
+}
+
+.olahraga h5 {
+    font-family: "Nunito";
+    margin: 1rem 0 1.5rem;
+    color: #5c5c5c;
+}
+
+.olahraga .main-content {
+    display: flex;
+    column-gap: 1rem;
+}
+
+.olahraga .main-content .left-content {
+    max-width: 65%;
+    width: 65%;
+}
+
+.olahraga .main-content .right-content {
+    max-width: 35%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.olahraga .main-content .left-content video {
+    max-width: 100%;
+    width: 100%;
+}
+
+.olahraga .main-content .right-content a {
+    text-decoration: none;
+    color: white;
+}
+
+.olahraga .main-content .right-content a div {
+    background-color: #2D4B5A;
+    width: fit-content;
+    padding: 2rem 2rem;
+    border-radius: .5rem;
+    text-align: center;
+    min-width: 15rem;
+    width: 15rem;
+}
+
+/*===================== FORMULIR ==================================*/
+.formulir {
+    background-color: #eaf4fc;
+}
+
+textarea {
+    resize: none;
+}
+
+/*===================== AUDIO ==================================*/
+.audio {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #2D4B5A;
+    padding: .75rem 1.25rem;
+    border-radius: 5rem;
+    margin-top: .5rem;
+    margin-left: .5rem;
+    display: flex;
+}
+
+.audio div {
+    font-weight: 600;
+    color: white;
+    margin-right: 1rem;
+    margin-left: .5rem;
+}
+
+svg {
+    max-width: 1rem;
+    width: 1rem;
+    fill: white;
+}
+
+.pause {
+    max-width: .9rem;
+    width: .9rem;
+    fill: white;
+}
