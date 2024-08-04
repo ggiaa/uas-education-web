@@ -216,3 +216,8 @@ svg {
     width: .9rem;
     fill: white;
 }
+
+.footer {
+    text-align: center;
+    margin-top: .75rem;
+}
